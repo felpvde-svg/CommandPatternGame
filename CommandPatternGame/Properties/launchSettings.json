@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CommandPatternGame": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
