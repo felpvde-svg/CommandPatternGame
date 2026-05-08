@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace CommandPatternGame.Commands  // (organiza el código dentro de este paquete)
+namespace CommandPatternGame.Commands  
 {
-    public interface ICommand   // (contrato: todos los comandos deben cumplir esto)
+    public interface ICommand   
     {
-        void Execute();        // (método que ejecuta la acción del comando)
-        void Undo();           // (método que deshace la acción ejecutada)
+        void Execute();        
+        void Undo();           
     }
 }
